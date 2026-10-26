@@ -7,11 +7,11 @@ describe('FizzBuzz Game', () => {
   });
      test('if the number is 2', () => {
     const result = game(2);
-    expect(result).toEqual(2);
+    expect(result).toEqual("Whizz");
   });
    test('if the number is 3', () => {
     const result = game(3);
-    expect(result).toEqual("Fizz");
+    expect(result).toEqual("FizzWhizz");
   });
    test('if the number is 4', () => {
     const result = game(4);
@@ -19,7 +19,7 @@ describe('FizzBuzz Game', () => {
   });
    test('if the number is 5', () => {
     const result = game(5);
-    expect(result).toEqual("Buzz");
+    expect(result).toEqual("BuzzWhizz");
   });
    test('if the number is 6', () => {
     const result = game(6);
@@ -50,3 +50,4 @@ describe('FizzBuzz Game', () => {
     expect(result).toEqual("FizzBuzz");
   }); 
 });
+
