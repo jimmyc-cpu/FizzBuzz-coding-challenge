@@ -15,7 +15,13 @@ For a given natural number greater zero return
   15      FizzBuzz
   20      Buzz
   30      FizzBuzz
+  45      FizzBuzz
+  49      49
+  50      Buzz
+  60      FizzBuzz
   75      FizzBuzz
+  90      FizzBuzz
+  99      Fizz
 
 Bonus
 Add the following new rule, if a number is prime return Whizz. Only worry about numbers up to 100.
@@ -25,8 +31,19 @@ Add the following new rule, if a number is prime return Whizz. Only worry about 
   3      FizzWhizz
   4      4
   5      BuzzWhizz
+  7      Whizz
+  11     Whizz
+  13     Whizz
+  17     Whizz
+  19     Whizz
+  23     Whizz
+  29     Whizz
+  31     Whizz
+  59     Whizz
+  67     Whizz
+  89     Whizz
+  97     Whizz
  */
-
   const isPrime = (input: number): boolean => {
   if (input < 2) return false;
   for (let i = 2; i < input; i++) {
